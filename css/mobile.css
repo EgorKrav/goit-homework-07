@@ -1,0 +1,27 @@
+
+
+
+@media screen and (min-width:480px) {
+    .container {
+        width: 428px;
+    }
+    .header-list {
+    display: none;
+    }
+    
+    .contacts-list {
+    display: none;
+    }
+
+}
+
+.modal-menu-open {
+    justify-content: space-between;
+    background-color: transparent;
+    border: none;
+    }
+
+.mobile-menu-open-icon {
+    stroke: var(--dark-color);
+    }
+

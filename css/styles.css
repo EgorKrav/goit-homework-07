@@ -39,7 +39,7 @@ body {
 }
 
 .container {
-    width: 1158px;
+    width: 100%;
     padding: 0px 15px;
     margin-left: auto;
     margin-right: auto;
@@ -51,11 +51,6 @@ body {
     border-bottom: 1px solid #E7E9FC;
 }
 .header-container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
     display: flex;
     align-items: center;
 }
@@ -448,10 +443,6 @@ body {
 
 .container-footer {
     display: flex;
-    width: 1158px;
-    padding: 0px 15px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .footer-logo {
