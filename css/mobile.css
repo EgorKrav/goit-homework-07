@@ -78,7 +78,7 @@
     background-color: var(--cloud-color);
 
 }
-.modal-close {
+.menu-modal-close {
     position: absolute;
     top: 24px;
     right: 24px;
@@ -118,6 +118,7 @@
 
 .mob-cont-menu-list {
     padding-left: 40px;
+    margin-bottom: 48px;
 }
 
 .mob-contacts-tel {
@@ -141,14 +142,8 @@
 
 .mob-soc-list {
     display: flex;
-    gap: 16px;
-}
-
-.mob-soc {
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--cloud-color);
+    justify-content: center;   
+    gap: 56px;
     
 }
 
@@ -159,11 +154,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
-}
-.logo-svg {
-}
-.mobsoc {
+    background-color: var(--primary-brand-color);
 }
 
 .header-link {

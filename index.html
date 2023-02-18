@@ -36,19 +36,19 @@
                         <li><a class="header-tel link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                     </ul>   
                 </address>
-                <button type="button" class="modal-menu-open">
+                <button type="button" class="modal-menu-open" data-menu-open>
                     <svg class="mobile-menu-open-icon" width="32" height="22">
                         <use href="./images/sprite.svg#icon-menu-hamburger"></use>
                     </svg>
                 </button>
             </div>
-            <div class="mob-menu">
-                <button type="button" class="modal-close">
-                    <svg class="modal-close-icon" width="8" height="8">
+            <div class="mob-menu is-hidden" data-menu>
+                <button type="button" class="menu-modal-close" data-menu-close>
+                    <svg class="menu-modal-close-icon" width="8" height="8">
                         <use href="./images/sprite.svg#icon-close"></use>
                     </svg>
                 </button>
-                <nav>
+                <nav >
                     <ul class="mob-menu-list list">
                         <li class="mob-menu-item"><a class="mob-menu-link link active" href="./index.html">Studio</a></li>
                         <li class="mob-menu-item"><a class="mob-menu-link link" href="./portfolio.html">Portfolio</a></li>
@@ -430,7 +430,7 @@
                 </div>  
             </div>
         </footer>
-        <!-- <div class="backdrop is-hidden" data-modal>
+        <div class="backdrop is-hidden" data-modal>
             <div class="modal">
                 <button type="button" class="modal-close" data-modal-close>
                     <svg class="modal-close-icon" width="8" height="8">
@@ -498,6 +498,7 @@
                 </form>
             </div>
         </div>
-        <script src="./js/modal.js"></script> -->
+        <script src="./js/modal.js"></script>
+        <script src="./js/mobile-menu.js"></script>
     </body>
 </html>
