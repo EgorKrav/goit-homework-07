@@ -46,6 +46,10 @@
         padding-bottom: 96px;
     }
 
+    .work {
+        display: none;
+    }
+
     .box {
         display: none;
     }
@@ -131,7 +135,24 @@
     .footer-text {
         justify-content: flex-start;
     }
+    .footer-media {
+        display: inline;
+        text-align: center;
+    }
+    
+    .social-med-list {
+        justify-content: center;
+        padding-bottom: 72px;
 
+    }
+
+    .subscride-wrap {
+        display: inline;
+    }  
+    .subscride-input {
+        width: 100%;
+        margin-bottom: 16px;
+    }
     
     
     

@@ -2,5 +2,101 @@
     .container {
         width: 1200px;
     }
+    .container {
+        max-width: 1200px;
+        padding: 0px 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .modal-menu-open{
+        display: none;
+    }
+
+    .header-container {
+        max-width: 1200px;
+        
+    }
+   
+    .header {
+       align-items: center;
+    }
+
+    .link:focus, .link:hover {
+        color: var(--pressedstate-color);
+    }
+
+    .contacts-list {
+        display: flex;
+    }
+
+    .contacts-list .link:hover,
+    .contacts-list .link:focus {
+        color: var(--pressedstate-color);
+    }
     
+    
+    .hero {
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+       url(../images/people-office.jpg);
+       
+    }
+
+    
+
+    .hero-btn:hover,
+    .hero-btn:focus {
+        background-color: var(--pressedstate-color);
+    }
+
+    
+
+    .features-list {
+        display: flex;
+        gap: 24px;
+    }
+
+    
+    
+    
+    .team-list {
+        display: flex;
+        gap: 24px;
+    }
+
+   
+
+    .teamsoc-list-link:hover,
+    .teamsoc-list-link:focus {
+        background-color: var(--pressedstate-color);
+    }
+
+    
+
+    .container-footer {
+        display: flex;
+    }
+
+   
+    .footer-text {
+        width: 264px;
+    }
+
+    .footer-media {
+        margin-left: 120px;
+    }
+    
+    .subscride-wrap {
+        margin-left: 80px;
+    }  
+    .subscride-input {
+       margin-right: 24px;
+    }
+    
+    
+
 }
+
+
