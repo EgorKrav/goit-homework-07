@@ -1,17 +1,133 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width:768px) and (max-width:1199px) {
     .container {
-        width: 768px;
+        max-width: 768px;
+        padding: 0px 15px;
+        margin-left: auto;
+        margin-right: auto;
     }
+
+    .modal-menu-open{
+        display: none;
+    }
+
+    .header-container {
+        max-width: 768px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+    }
+
+    
+    .header {
+        display: flex;
+        padding: 0; 
+        margin: 0;
+    }
+
+    .contacts-list {
+        margin: 0;
+        padding: 0;
+    }
+    
     .hero {
-        background-image: linear-gradient(
+           background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-        url(../images/tablet-bg.jpg);;
+        url(../images/tablet-bg.jpg);
         max-width: 768px;
+        padding-top: 111px;
+        padding-bottom: 108px;
     }
+
     .hero-title {
-        width: 496px;
-        margin-bottom: 40px;
         font-size: 56px;
+        width: 496px;
+
     }
+
+    .box {
+        display: none;
+    }
+
+    .features-list {
+        display: inline-block;
+        gap: 24px;
+        
+        
+    }
+    .features-item {
+        flex-direction: column;
+     
+
+    }
+    
+    .features-item:not(:last-child) {
+        
+
+    }
+   
+
+    .team-item {
+        
+    }
+    .team-item:not(:last-child) {
+       
+
+    }
+    .customers {
+        
+
+    }
+    
+    .customers-icon-list {
+        display: flex;
+        flex-grow: inherit;
+       
+    }
+
+    .customers-list {
+        width: 168px;
+        height: 88px;
+        
+    }
+
+    .customers-list-item:nth-child(-n+4) {
+        
+    }
+
+    .footer {
+      
+    }
+
+    .container-footer {
+      
+    }
+
+    .footer-basement {
+        
+    }
+
+    .footer-text {
+        
+    }
+
+    
+    .footer-media {
+        
+    }
+    
+    .social-med-list {
+        
+
+    }
+
+    .subscride-wrap {
+        
+    }  
+    .subscride-input {
+       
+    }
+    
+    
+
 }

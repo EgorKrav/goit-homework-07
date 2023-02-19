@@ -1,8 +1,6 @@
-
-
-@media screen and (min-width:321px) and (max-width:480px) {
-    .container {
-        width: 428px;
+@media screen and (max-width:320px) {
+   .container {
+        max-width: 428px;
         padding: 0px 15px;
         margin-left: auto;
         margin-right: auto;
@@ -31,7 +29,6 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
         url(../images/mobile-bg.jpg);
-        max-width: 428px;
         padding-top: 112px;
         padding-bottom: 112px;
     }
@@ -88,6 +85,7 @@
         margin-bottom: 72px;
 
     }
+
     .customers {
         padding-top: 96px;
         padding-bottom: 96px;
@@ -95,7 +93,6 @@
     }
     
     .customers-icon-list {
-        
         flex-wrap: wrap;
         gap: 16px;
         width: 396px;
@@ -110,8 +107,9 @@
     .customers-list-item:nth-child(-n+4) {
         margin-bottom: 72px;
     }
-
+    
     .footer {
+        display: inline-block;
         padding-top: 96px;
         padding-bottom: 96px;
     }
@@ -122,19 +120,38 @@
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+        
     }
 
     .footer-basement {
-        display: inline-block;
+        padding-bottom: 72px;
     }
 
     .footer-text {
-        justify-content: flex-start;
+        display: inline-block;
+        width: 268px;
     }
 
+    .footer-media {
+        display: inline;
+        text-align: center;
+    }
     
-    
-    
+    .social-med-list {
+        justify-content: center;
+        padding-bottom: 72px;
+
+    }
+
+    .subscride-wrap {
+        display: inline;
+    }  
+    .subscride-input {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+
 
 
 }
