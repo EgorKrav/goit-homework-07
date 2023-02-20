@@ -1001,6 +1001,10 @@ c {
 }
 
 
+.act {
+    color: var(--pressedstate-color);
+}
+
 .menu-cont-tel {
     display: block;
     font-weight: 600;
