@@ -168,9 +168,6 @@
         text-align: start;
     }
     
-    .subscride-wrap {
-        padding-top: 72px;
-    }  
 
     .subscride-title {
         text-align: start;
@@ -178,7 +175,7 @@
 
     .subscride-input {
         width: 264px;
-        margin-right: 24px;
+
     }
     
     
