@@ -21,7 +21,7 @@
 
 
     .header {
-        padding: 24px 0px;
+    
         border-bottom: 1px solid #E7E9FC;
     }
 
@@ -49,6 +49,11 @@
         width: 320px;
     }
 
+     .modal {
+        width: 392px;
+    
+    }
+
     .features {
         padding-top: 96px;
         padding-bottom: 96px;
@@ -70,7 +75,6 @@
     .features-list {
         display: flex;
         flex-direction: column;
-        gap: 72px;
 
     }
     
@@ -94,15 +98,19 @@
         padding-top: 96px;
         padding-bottom: 128px;
     }
+
+    .team-list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        row-gap: 72px;
+    }
     
     .team-item {
         display: inline-block;
         width: 264px;
     }
-    .team-item:not(:last-child) {
-        margin-bottom: 72px;
-
-    }
+  
     .customers {
         padding-top: 96px;
         padding-bottom: 96px;
@@ -110,10 +118,11 @@
     }
     
     .customers-icon-list {
-        
+        display: flex;
         flex-wrap: wrap;
         gap: 16px;
         width: 396px;
+        row-gap: 72px;
     }
 
     .customers-list {
@@ -122,9 +131,7 @@
         flex-basis: calc((100% - 32px) / 2);
     }
 
-    .customers-list-item:nth-child(-n+4) {
-        margin-bottom: 72px;
-    }
+
 
     .footer {
         padding-top: 96px;
@@ -171,6 +178,7 @@
         margin-left: auto;
         margin-right: auto;
     }
+    
 
 }
 

@@ -59,7 +59,12 @@
         line-height: 1.07;
         text-transform: none;
     }
+    
+    .modal{
+        width: 408px;
 
+    }
+     
     
 
     .hero-btn:hover,

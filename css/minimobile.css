@@ -44,9 +44,22 @@
     }
 
     .hero-title {
-        width: 320px;
+        width: 100%;
         font-size: 36px;
 
+    }
+
+    .modal {
+        width: 100%;
+        height: auto;
+    }
+
+    .menu-cont-tel {
+        font-size: 27px;
+    }
+
+    .menu-soc-list {
+        gap: 24px;
     }
 
     .work {
@@ -92,15 +105,19 @@
         padding-top: 96px;
         padding-bottom: 128px;
     }
+
+     .team-list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        row-gap: 72px;
+    }
     
     .team-item {
         display: inline-block;
         width: 264px;
     }
-    .team-item:not(:last-child) {
-        margin-bottom: 72px;
-
-    }
+    
 
     .customers {
         padding-top: 96px;
@@ -109,9 +126,11 @@
     }
     
     .customers-icon-list {
+        display: flex;
         flex-wrap: wrap;
         gap: 16px;
         width: 100%;
+        row-gap: 72px;
     }
 
     .customers-list {
@@ -121,7 +140,11 @@
     .customers-list-item {
         flex-basis: calc((100% - 16px) / 2);
     }
-    
+
+    /* .customers-list-item:nth-child(-n+4) {
+        margin-bottom: 72px;
+    }
+     */
     .footer {
         padding-top: 96px;
         padding-bottom: 96px;
@@ -169,6 +192,11 @@
         margin-left: auto;
         margin-right: auto;
     }
+    
+    .portfolio-list {
+        flex-wrap: wrap;
+    }
+
 
 }
 
