@@ -46,7 +46,7 @@ body {
 .header {
     border-bottom: 1px solid #E7E9FC;
 }
-.header-container {
+/* .header-container {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -55,7 +55,7 @@ body {
     padding-right: 15px;
     
     align-items: center;
-}
+} */
 .header-navigation {
     display: flex;
     align-items: center;
@@ -162,10 +162,10 @@ body {
     /*     --------  HERO  --------       */
 
 .hero {
-    /* background-image: linear-gradient(
+    background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-        url(../images/people-office\(1\).jpg); */
+        url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 188px;
@@ -176,17 +176,17 @@ body {
 }
 
 .hero-title {
-    margin: 0;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: var(--cloud-color);
-    margin-bottom: 48px;
-    width: 496px;
+    margin-bottom: 72px;
+    /* width: 496px; */
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .hero-btn {
@@ -559,7 +559,7 @@ c {
 }
 
 .subscride-btn {
-    /* display: flex; */
+    display: flex;
     width: 165px;
     height: 40px;
     font-family: inherit;
@@ -918,10 +918,21 @@ c {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.subscride-btn::after {
+    content: " ";
+    width: 24px;
+    height: 24px;
+    margin-left: 16px;
+    background-size: contain;
+    background-image: url(../images/telegr.svg);
+}
+
+
 .submit-btn:hover,
 .submit-btn:focus {
    background-color: var(--pressedstate-color);
 }
+
 
 .mob-menu.is-hidden {
     opacity: 0;
@@ -942,11 +953,10 @@ c {
 }
 .mob-menu {
     position: fixed;
-    width: 100%;
-    height: 100%;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
     top: 0;
-    width: 428px;
-    min-height: 796px;
     background-color: var(--cloud-color);
 }
 
@@ -966,10 +976,17 @@ c {
 .menu-close-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.mob-menu-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .mob-menu-list {
     padding-top: 80px;
     padding-left: 40px;
-    padding-bottom: 284px;
+    margin-bottom: 284px;
 }
 
 .mob-menu-item:not(:last-child) {
@@ -988,8 +1005,10 @@ c {
 
 
 .cont-menu-list {
+    display: flex;
+    flex-direction: column;
     padding-left: 40px;
-    margin-bottom: 48px;
+    gap: 40px;
 }
 .menu-cont-tel {
     font-weight: 600;

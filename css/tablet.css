@@ -1,21 +1,33 @@
 @media screen and (min-width:768px) and (max-width:1199px) {
     .container {
-        max-width: 768px;
-        padding: 0px 15px;
+        width: 768px;
+        padding: 0px 16px;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .modal-menu-open{
+    .section {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .modal-menu-open {
         display: none;
     }
 
     .header-container {
-        max-width: 768px;
+        width: 768px;
         height: 70px;
         display: flex;
         align-items: center;
     }
+
+    .header-list {
+        display: flex;
+        margin-left: 120px;
+    }
+
+
    
     .header {
         display: flex;
@@ -24,8 +36,19 @@
     }
 
     .contacts-list {
+       display: block;
+       
+
+    }
+
+    .header-mail, 
+    .header-tel {
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: 0.04em;
         margin: 0;
-        padding: 0;
+
+
     }
     
     .hero {
@@ -58,15 +81,18 @@
 
     .features-list {
         display: flex;
-        flex-wrap: wrap;      
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 24px;   
+        row-gap: 72px;
     }
 
     .features-item {
-        width: 356px;
-        margin-bottom: 72px;
+        flex-basis: calc((100% - 24px) / 2);
     }
 
     .features-title {
+        text-align: start;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -100,13 +126,19 @@
     .customers-icon-list {
         display: flex;
         flex-wrap: wrap;
-       
+        width: 552px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .customers-list {
         width: 168px;
         height: 88px;
         
+    }
+
+    .customer-list-item {
+        flex-basis: calc((100% - 48px) / 3);
     }
 
     .container-footer {
@@ -116,21 +148,51 @@
         padding-left: 108px;
     }
 
+    .footer-logo {
+        text-align: start;
+    }
+
     .footer-text {
         width: 264px;
+    }
+
+    .footer-form {
+        display: flex;
     }
 
     .footer-media {
         margin-left: 24px;
     }
+
+    .soc-media {
+        text-align: start;
+    }
     
     .subscride-wrap {
         padding-top: 72px;
     }  
+
+    .subscride-title {
+        text-align: start;
+    }
+
     .subscride-input {
+        width: 264px;
         margin-right: 24px;
     }
     
     
 
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px)  {
+  .hero-section {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
+    url(../images/tablet-bg@2x.jpg);
+    background-size: cover;
+  }
 }

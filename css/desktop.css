@@ -1,12 +1,14 @@
 @media screen and (min-width:1200px) {
     .container {
         width: 1200px;
-    }
-    .container {
-        max-width: 1200px;
         padding: 0px 15px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .section {
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
 
     .modal-menu-open{
@@ -14,12 +16,17 @@
     }
 
     .header-container {
-        max-width: 1200px;
+        width: 1200px;
         
+    }
+
+    .header-list {
+        display: flex;
     }
    
     .header {
-       align-items: center;
+        padding: 0;
+        align-items: center;
     }
 
     .link:focus, .link:hover {
@@ -41,7 +48,15 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
        url(../images/people-office.jpg);
+       padding: 188px 0;
+       max-width: 1440px;
        
+    }
+
+    .hero-title {
+        width: 496px;
+        font-size: 56px;
+        line-height: 1.07;
     }
 
     
@@ -55,30 +70,77 @@
 
     .features-list {
         display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
         gap: 24px;
     }
+
+    .box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .features-title {
+        text-align: start;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+    }
+
+    .work {
+        display: block;
+        padding-top: 0;
+    }
+
+
 
     
     
     
     .team-list {
-        display: flex;
-        gap: 24px;
+        display: block;
+
+        
     }
 
-   
+    
+    .team-item:not(:last-child) {
+        margin-right: 24px;
+    }
 
     .teamsoc-list-link:hover,
     .teamsoc-list-link:focus {
         background-color: var(--pressedstate-color);
     }
 
-    
+    .customers {
+        width: auto;
+    }
 
+    .customers-icon-list {
+        display: flex;
+        width: auto;
+        flex-wrap: nowrap;
+
+          
+    }
+
+    .customers-list-item:nth-child(-n+4) {
+        margin-bottom: 0;
+    }
     .container-footer {
         display: flex;
     }
 
+    .footer-basement {
+        margin-bottom: 0;
+    }
+
+    .footer-logo {
+        text-align: start;
+    }
    
     .footer-text {
         width: 264px;
@@ -87,16 +149,45 @@
     .footer-media {
         margin-left: 120px;
     }
+
+    .soc-media {
+        text-align: start;
+    }
+
+    .social-med-list {
+        padding: 0;
+    }
     
+    .subscride-title {
+        text-align: start;
+    }
+
     .subscride-wrap {
         margin-left: 80px;
     }  
     .subscride-input {
-       margin-right: 24px;
+        width: 264px;
+        margin-right: 24px;
     }
+
+    .footer-form {
+        display: flex;
+    }
+
     
     
 
 }
 
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+  screen and (min-resolution: 192dpi) and (min-width: 1200px),
+  screen and (min-resolution: 2dppx) and (min-width: 1200px)  {
+  .hero-section {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
+    url(../images/people-office-bg@2x.jpg);
+    background-size: cover;
+  }
+}
 
