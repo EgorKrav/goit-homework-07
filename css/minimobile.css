@@ -143,6 +143,7 @@
     .footer-text {
         display: inline-block;
         width: 268px;
+        text-align: start;
     }
 
     .footer-media {
