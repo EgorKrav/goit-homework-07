@@ -17,7 +17,6 @@
 
     .header-container {
         width: 1200px;
-        
     }
 
     .header-list {
@@ -42,7 +41,6 @@
         color: var(--pressedstate-color);
     }
     
-    
     .hero {
         background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -50,7 +48,6 @@
        url(../images/people-office.jpg);
        padding: 188px 0;
        max-width: 1440px;
-       
     }
 
     .hero-title {
@@ -62,23 +59,22 @@
     
     .modal{
         width: 408px;
-
     }
      
-    
-
     .hero-btn:hover,
     .hero-btn:focus {
         background-color: var(--pressedstate-color);
     }
-
-    
 
     .features-list {
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
         gap: 24px;
+    }
+
+    .features-text {
+        font-weight: 400;
     }
 
     .box {
@@ -100,18 +96,10 @@
         padding-top: 0;
     }
 
-
-
-    
-    
-    
     .team-list {
-        display: block;
-
-        
+        display: block; 
     }
 
-    
     .team-item:not(:last-child) {
         margin-right: 24px;
     }
@@ -125,12 +113,15 @@
         width: auto;
     }
 
+    .customers-list {
+        width: 168px;
+        height: 88px;
+    }
+
     .customers-icon-list {
         display: flex;
         width: auto;
-        flex-wrap: nowrap;
-
-          
+        flex-wrap: nowrap;      
     }
 
     .customers-list-item:nth-child(-n+4) {

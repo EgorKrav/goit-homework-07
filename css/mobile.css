@@ -11,7 +11,6 @@
         width: 428px;
         display: flex;
         align-items: center;
-        
     }
 
     .section {
@@ -19,9 +18,7 @@
         padding-bottom: 96px;
     }
 
-
     .header {
-    
         border-bottom: 1px solid #E7E9FC;
     }
 
@@ -51,7 +48,6 @@
 
      .modal {
         width: 392px;
-    
     }
 
     .features {
@@ -69,16 +65,13 @@
     
     .features-item {
         width: 396px;
-
     }
 
     .features-list {
         display: flex;
         flex-direction: column;
-
     }
     
-  
     .features-title {
         font-weight: 700;
         font-size: 36px;
@@ -90,8 +83,7 @@
     
     .features-text {
         font-weight: 500;
-        font-size: 16px;
-        
+        font-size: 16px; 
     }
 
     .team {
@@ -131,8 +123,6 @@
         flex-basis: calc((100% - 32px) / 2);
     }
 
-
-
     .footer {
         padding-top: 96px;
         padding-bottom: 96px;
@@ -146,9 +136,9 @@
         text-align: center;
     }
 
-    .footer-basement {
+    /* .footer-basement {
         padding-bottom: 72px;
-    }
+    } */
 
     .footer-text {
         width: 268px;
@@ -163,7 +153,6 @@
     .social-med-list {
         justify-content: center;
         padding-bottom: 72px;
-
     }
 
     .subscride-wrap {

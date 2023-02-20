@@ -26,8 +26,6 @@
         display: none;
     }
 
-    
-
     .contacts-list {
         display: none;
     }
@@ -51,7 +49,6 @@
 
     .modal {
         width: 100%;
-        height: auto;
     }
 
     .menu-cont-tel {
@@ -98,7 +95,6 @@
     .features-text {
         font-weight: 500;
         font-size: 16px;
-        
     }
 
     .team {
@@ -118,11 +114,9 @@
         width: 264px;
     }
     
-
     .customers {
         padding-top: 96px;
         padding-bottom: 96px;
-
     }
     
     .customers-icon-list {
@@ -141,10 +135,6 @@
         flex-basis: calc((100% - 16px) / 2);
     }
 
-    /* .customers-list-item:nth-child(-n+4) {
-        margin-bottom: 72px;
-    }
-     */
     .footer {
         padding-top: 96px;
         padding-bottom: 96px;
@@ -156,7 +146,6 @@
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        
     }
 
     .footer-basement {
@@ -191,6 +180,11 @@
     .subscride-btn {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .input-check {
+        flex-wrap: wrap;
+        justify-content: center;
     }
     
     .portfolio-list {
