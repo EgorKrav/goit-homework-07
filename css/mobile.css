@@ -41,6 +41,7 @@
         width: 100%;
         padding-top: 112px;
         padding-bottom: 112px;
+        text-transform: capitalize;
     }
 
     .hero-title {

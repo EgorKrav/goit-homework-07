@@ -38,11 +38,13 @@
         url(../images/mobile-bg.jpg);
         padding-top: 112px;
         padding-bottom: 112px;
+        text-transform: capitalize;
     }
 
     .hero-title {
         width: 320px;
         font-size: 36px;
+
     }
 
     .work {
