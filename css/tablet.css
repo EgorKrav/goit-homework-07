@@ -145,8 +145,7 @@
     .container-footer {
         display: flex;
         flex-wrap: wrap;
-        width: 768px;
-        padding-left: 108px;
+        width: 552px;
     }
 
     .footer-logo {
