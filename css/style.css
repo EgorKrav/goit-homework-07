@@ -953,6 +953,7 @@ c {
 }
 .mob-menu {
     position: fixed;
+    display: flex;
     z-index: 100;
     width: 100vw;
     height: 100vh;
@@ -986,7 +987,6 @@ c {
 .mob-menu-list {
     padding-top: 80px;
     padding-left: 40px;
-    margin-bottom: 284px;
 }
 
 .mob-menu-item:not(:last-child) {
@@ -1031,6 +1031,8 @@ c {
     display: flex;
     justify-content: center;   
     gap: 56px;
+    padding-left: 40px;
+    padding-bottom: 40px;
 }
 
 .menu-soc-list-link {
